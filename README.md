@@ -48,29 +48,3 @@ task_asst/
 
 ---
 
-## Sub-Agent READMEs
-
----
-
-### Reminder Agent
-
-````markdown
-// filepath: d:\Sandesh\ADK\Task Assistant\task_asst\sub_agents\reminder\README.md
-
-# Reminder Agent
-
-Handles all reminder-related tasks:
-- Set reminders with a message and time
-- List reminders with status (Done/Pending)
-- Delete reminders by index
-- Mark reminders as done
-- Notifies you on your laptop when a reminder is due
-
-## Usage
-
-- **Set:** "Remind me to call mom at 5pm"
-- **List:** "Show my reminders"
-- **Delete:** "Delete the second reminder"
-- **Mark done:** "Mark the first reminder as done"
-
-Reminders are stored in-memory for demo purposes.
